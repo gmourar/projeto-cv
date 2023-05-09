@@ -1,0 +1,589 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif ;
+    box-sizing: border-box;
+  }
+
+
+  .hea{
+      height: 100vh;
+      width: 100%;
+      background-image: url(fundo.png);
+      background-position: center;
+      background-size: cover;
+  
+  }
+  nav{
+      display: flex;
+      align-items: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+      padding-left: 7%;
+      padding-right: 7%;
+  
+  }
+  .logo{
+      color:whitesmoke;
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+  
+  }
+  .logo:hover{
+      color: #1e7696;
+      transition: .3s;
+      
+  }
+  span{
+      color:#1e7696
+  }
+  nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 25px;
+  }
+  nav ul li a{
+      color: whitesmoke;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+  nav ul li a:hover{
+      color: #1e7696;
+      transition: .4s;
+  }
+  
+  
+  
+  .content{
+      position: absolute;
+      top: 50%;
+      left:8%;
+      transform:translateY(-50%);
+     
+  }
+  h1{
+      color:whitesmoke;
+      margin: 20px 0px 20px;
+      font-size: 75px;
+      border: 15px;
+      border-color: #1e7696;
+  
+  
+  }
+  h3{
+      color: whitesmoke;
+      font-size: 25px;
+      margin-bottom: 50px;
+      
+  }
+  h4{
+      letter-spacing: 2px;
+      font-size: 20px ;
+      color: whitesmoke;
+  
+  }
+  
+  .nlw form{
+      width: 380px;
+      max-width: 100%;
+      position: relative;
+  
+  }
+  .nlw form input:first-child{
+      display: inline-block;
+      width: 100%;
+      padding: 14px 130px 14px 15px;
+      border: 2px solid #1e7696;
+      outline: none;
+      border-radius:30px ;
+  }
+  .nlw form input:last-child{
+      position: absolute;
+      display: inline-block;
+      outline: none;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 30px;
+      background-color: #1e7696;
+      color: whitesmoke;
+      box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+      top: 6px;
+      right: 6px;
+      cursor: pointer;
+    
+  }
+  
+  
+  
+  .sobre{
+      width: 100%;
+      padding: 100px 0px;
+      background-color: #101010;
+  
+  
+  }
+  .sobre img{
+      height: auto;
+      width: 430px ;
+  
+  }
+  .sobre-texto{
+      width: 550px;
+  
+  }
+  .main{
+      width:  1130px;
+      max-width: 95%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  
+  
+  }
+  .sobre-texto h2{
+      color: whitesmoke;
+      font-size: 75px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+  
+  }
+  .sobre-texto h5{
+      color: whitesmoke;
+      letter-spacing: 2px;
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-transform: capitalize;
+  }
+  .sobre-texto p{
+      color: whitesmoke ;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+  
+  }
+  button{
+      background-color: #1e7696 ;
+      text-decoration: none;
+      color: whitesmoke;
+      padding: 13px 30px;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: .4s;
+  
+  }
+  button:hover{
+      background-color: #1e7696;
+      border: 2px solid #1e7696;
+      cursor: pointer;
+      background-color: transparent;
+  
+  }
+
+  .experiencia{
+    background: #191919;
+    width: 100%;
+    padding: 100px 0px;
+
+  }
+  .titulo{
+    color: whitesmoke;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+  }
+  .experiencia .titulo hr{
+    color:#00DBDE;
+    border-top: 10px;}
+
+  .titulo h3{
+    text-align: center;
+    font-size: 17px;
+    color: cadetblue;
+    margin-top: 30px;
+  }
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+  }
+  .card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 75px;
+
+  }
+  .card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #1e7696;
+   
+
+  }
+h5{
+    color:whitesmoke;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+  .form {
+  width: 100%;
+  max-width: 32rem;
+  font-size: 1.125rem;
+}
+.pra p{
+    color: gainsboro;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 25px;
+
+}
+.card .button{
+    background-color: #1e7696 ;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 9px 22px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: .4s;
+   
+}
+.card .button:hover{
+    background-color: #1e7696;
+      border: 2px solid #1e7696;
+      cursor: pointer;
+      background-color: transparent;
+  
+}
+.card a{
+
+    color: gainsboro;
+}
+.form label,
+.form input,
+.form textarea,
+.form button {
+  display: block;
+  width: 100%;
+}
+
+.form label {
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+  min-height: 13rem;
+  resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #09d;
+  box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+.form button {
+  display: block;
+  padding: 1rem;
+  background: #1e7696;
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: #1e7696;
+}
+
+.contatos{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #101010;
+
+
+}
+.contatos .main img{
+    height: auto;
+    width: 400px ;
+
+}
+.contatos-texto{
+    width: 550px;
+
+}
+.main{
+    width:  1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.contatos-texto h2{
+    color: whitesmoke;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.contatos-texto h5{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.contatos-texto p{
+    color: whitesmoke ;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.main img{
+    max-width: 300px;
+}
+
+.carrosel {
+    -webkit-perspective: 250px;
+    -moz-perspective: 250px;
+    max-width: 400px;
+    height: 200px;
+    top: 50px;
+    position: relative;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.skills{
+    height: 100%;
+    width: 100%;
+    padding: 300px 0px;
+    background-color: #101010;
+}
+
+.skills .carrosel{
+    align-items: 50vh;
+    
+}
+.skills h2{
+    align-items: center;
+    justify-content: center;
+    
+}
+.wpp{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 9999;
+}
+.lnkd{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999;
+}
+
+
+
+@-webkit-keyframes efeitoCarrosel {
+    from {
+        -webkit-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        -webkit-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+@-moz-keyframes efeitoCarrosel {
+    from {
+        -moz-transform: rotateY(360deg) translateZ(130px) rotateY(-360deg);
+        z-index: 10;
+        opacity: 1
+    }
+
+    50% {
+        z-index: -10;
+    }
+
+    to {
+        -moz-transform: rotateY(0deg) translateZ(130px) rotateY(0deg);
+        z-index: 10;
+        opacity: 1
+    }
+}
+
+.caixa__card {
+    width: 140px;
+    height: 160px;
+    background-color: #442222;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    left: 125px;
+    font-size: 9px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    -webkit-animation-name: efeitoCarrosel;
+    -moz-animation-name: efeitoCarrosel;
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+.caixa__card:hover {
+    border: solid #4466cc 3px;
+    box-shadow: 0px 0px 10px #4466cc;
+}
+
+
+
+.caixa__card.cc__1 {
+    background: linear-gradient(-229deg, #0093E9, #1e7696);
+    -webkit-animation-delay: -7s;
+    -moz-animation-delay: -7s;
+}
+
+.caixa__card.cc__2 {
+
+    background: linear-gradient(-229deg, #00DBDE, #1e7696);
+    -webkit-animation-delay: -6s;
+    -moz-animation-delay: -6s;
+}
+
+.caixa__card.cc__3 {
+
+    background: linear-gradient(-229deg, #50d990, #1e7696);
+    -webkit-animation-delay: -5s;
+    -moz-animation-delay: -5s;
+}
+
+.caixa__card.cc__4 {
+    background: linear-gradient(-229deg, #cf91ff, #1e7696);
+    -webkit-animation-delay: -4s;
+    -moz-animation-delay: -4s;
+}
+
+.caixa__card.cc__5 {
+    background: linear-gradient(-229deg, #642B73, #1e7696);
+    -webkit-animation-delay: -3s;
+    -moz-animation-delay: -3s;
+}
+
+.caixa__card.cc__6 {
+    background: linear-gradient(-229deg, #D9AFD9, #1e7696);
+    -webkit-animation-delay: -2s;
+    -moz-animation-delay: -2s;
+}
+
+.caixa__card.cc__7 {
+    background: linear-gradient(-229deg, #FBAB7E, #1e7696);
+    -webkit-animation-delay: -1s;
+    -moz-animation-delay: -1s;
+}
+
+.caixa__card.cc__8 {
+    background: linear-gradient(-229deg, #1472ff, #1e7696);
+}
+
+
+.certificados{
+    height: 120vh;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.certificados .cardcert{
+    height: 60vh;
+    width: 20vw;
+    padding: 20px 35px;
+    background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 75px;
+
+}
+.pra img{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;}
+.pra img:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.cardcert h5{
+    margin-top: 58px;
+    
+}
+
+.aaaa {
+    height: 70%;
+    width: 70%;
+}
+
